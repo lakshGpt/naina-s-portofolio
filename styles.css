@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topNav
+{
+    overflow: hidden;
+    display: flex;
+    padding: 1% 0;
+    background-color: #00203FFF;
+}
+
+.topNav h2
+{
+    color: #ADEFD1FF;
+    padding: 14px 16px;
+    transition: transform 3s;
+    text-decoration: underline;
+}
+
+.topNav h2:hover
+{
+    font-size:2rem;
+    transform: rotate(360deg);
+}
+
+.topNav div
+{
+    display: flex;
+    margin-left: 50%;
+}
+
+.menu
+{
+    position: relative;
+    left: 5%;
+}
+
+.menu a
+{
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ADEFD1FF;
+}
+
+.menu a:hover
+{
+    background-color: #fff;
+    color: #00203FFF;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+/* styling about section */
+
+#About
+{
+    position: relative;
+    /* top: 0rem; */
+    /* border: 10px dotted red; */
+    height: 10rem;
+    background-color: #ADEFD1FF;
+}
+
+#About h2
+{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    height: 3rem;
+    padding-top: 15px;
+}
+
+#About h3
+{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    height: 2rem;
+    padding-top: 8px;
+    width: 10rem;
+    position: relative;
+    left: 20rem;
+}
+
+.heading
+{
+    padding: 20px 50px 0 ;
+    /* margin-top: 10px; */
+    /* position: relative; */
+    /* bottom: 97%; */
+    text-align: center;
+    text-decoration: 6% skyblue double underline;
+}
+
+.Split
+{
+    position: relative;
+    top: 1rem;
+    background-color: #ADEFD1FF;
+    height: 20rem;
+    padding-bottom: 10%;
+}
+
+.AboutMe
+{
+    width: 60%;
+    position: absolute;
+    left: 10%;
+    padding: 15px 20px;
+}
+
+.AboutMe p
+{
+    transition: box-shadow .3s;
+}
+
+.AboutMe p:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33, 33, 33, .4);
+    border: 2px #00203FFF solid
+}
+
+.Pic
+{
+    width: 40%;
+    position: relative;
+    left: 80%;
+}
+
+.Pic img
+{
+    height: 20%;
+    width: 22%;
+    transition: box-shadow .3s;
+}
+
+.Pic img:hover
+{
+    transform: scale(1.5);
+    box-shadow: 0 0 11px rgba(33, 33, 33, .4);
+    border-radius: 10px;
+    border: 1px #4c9e9e solid;
+}
+
+
+/* academic details */
+
+#Academic
+{
+    position: relative;
+    top: 11rem;
+    background-color: #ADEFD1FF;
+    height: 21.5rem;
+}
+
+#Academic h2
+{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    height: 3rem;
+}
+
+table
+{
+    border-collapse: collapse;    
+}
+
+td,th
+{
+    padding: 10px 10px;
+    border: 1px black solid;
+    height: 2rem;
+    width: 25rem;
+}
+
+th
+{
+    text-decoration:underline;
+}
+
+tr:hover
+{
+    background-color: coral;
+    transform: scale(1.1);
+}
+
+.Table-Details
+{
+    text-align: center;
+    position: relative;
+    left: 7.5%;
+    top: 2rem;
+    /* transform: scale(2,1.25);     */
+}
+
+/* contact details */
+
+#Contact
+{
+    position: relative;
+    top: 11rem;
+}
+
+#Contact h2
+{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    height: 3rem;
+}
+
+.Contact-Details
+{
+    position: relative;
+    /* top: 1rem; */
+    padding: 15px 10px;
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+
+}
+
+.Phone
+{
+    position: absolute;
+    left: 1%;
+}
+
+.Email
+{
+    position: absolute;
+    left: 20%;
+}
+
+.Linkdin
+{
+    position: absolute;
+    left: 40%;
+}
+
+.Deptt
+{
+    position: absolute;
+    left: 60%;
+}
+
+.RollNo
+{
+    position: relative;
+    left: 80%;
+    width: 6rem;
+}
+
+.Contact-Details h3
+{
+    display: inline-block;
+}
+
+.Contact-Details div
+{
+    transition: transform .2s;
+}
+
+.Contact-Details div:hover
+{
+    transform: scale(1.1);
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px #00203FFF solid;
+    height: 1.5rem;
+    width: 12rem;
+    text-align: center;
+}
+
+/* query */
+#Query
+{
+    position: relative;
+    top: 11rem;
+}
+
+#Query h2
+{
+    background-color: #00203FFF;
+    color: #ADEFD1FF;
+    height: 3.5rem;
+}
+
+.Query-sec
+{
+    position: relative;
+    /* top: 2rem; */
+    /* left: rem; */
+    background-color: #ADEFD1FF;
+    height: 15rem;
+    width: 95rem;
+}
+
+.Query-sec h4
+{
+    display: inline;
+}
+
+.Name
+{
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.Email-Id
+{
+    position: relative;
+    top: 1.5rem;
+    left: 70%;
+}
+
+#NameInput,#EmailInput
+{
+    width: 15rem;
+    height: 1.5rem;
+}
+
+.Query-Asked
+{
+    position: relative;
+    top: 0rem;
+    left: 2rem;
+}
+
+#QueryTextarea
+{
+    position: relative;
+    top: 2.5rem;
+    width: 75rem;    
+}
+
+.button
+{
+    position: relative;
+    font-size: 1.5rem;
+    top: 4rem;
+    left: 43%;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 25px;
+    transition: box-shadow .3s;
+}
+
+.button:hover
+{
+    background-color: skyblue;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 0 11px rgba(33, 33, 33, .4);
+}
